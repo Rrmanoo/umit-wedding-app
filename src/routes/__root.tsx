@@ -104,8 +104,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "" },
       { property: "og:description", content: "" },
       { name: "twitter:description", content: "" },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2f20e7bd-533e-4e3f-8714-c0db30c21b72/id-preview-2ab5cb44--f7fd63a4-7a5e-4a1c-a29f-94361117c58e.lovable.app-1781720102290.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2f20e7bd-533e-4e3f-8714-c0db30c21b72/id-preview-2ab5cb44--f7fd63a4-7a5e-4a1c-a29f-94361117c58e.lovable.app-1781720102290.png" },
+      { property: "og:image", content: "https://umit-wedding-app.vercel.app/bride-umit.png" },
+      { name: "twitter:image", content: "https://umit-wedding-app.vercel.app/bride-umit.png" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
