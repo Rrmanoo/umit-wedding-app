@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import brideAsset from "@/assets/bride-umit.png.asset.json";
-import paperAsset from "@/assets/wedding-paper-bg.png.asset.json";
-import calligraphyAsset from "@/assets/calligraphic-section-bg.png.asset.json";
-import gisAsset from "@/assets/2gis-icon-logo.png.asset.json";
+// import brideAsset from "@/assets/bride-umit.png.asset.json";
+// import paperAsset from "@/assets/wedding-paper-bg.png.asset.json";
+// import calligraphyAsset from "@/assets/calligraphic-section-bg.png.asset.json";
+// import gisAsset from "@/assets/2gis-icon-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -399,7 +399,7 @@ function Invitation() {
       <div
         className="fixed inset-0 z-0 pointer-events-none"
         style={{
-          backgroundImage: `url(${calligraphyAsset.url})`,
+          backgroundImage: "url('/calligraphic-section-bg.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -414,7 +414,7 @@ function Invitation() {
           {/* Portrait Photo */}
           <div className="relative w-full">
             <img
-              src={brideAsset.url}
+              src="/bride-umit.png"
               alt="Үміт"
               className="w-full h-auto object-cover object-top max-h-[550px]"
             />
@@ -515,7 +515,7 @@ function Invitation() {
               rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 w-full py-3 px-5 rounded-xl border border-primary/30 bg-primary/5 hover:bg-primary/10 text-primary font-semibold transition-all shadow-sm"
             >
-              <img src={gisAsset.url} alt="" className="h-5 w-5" />
+              <img src="/2gis-icon-logo.png" alt="2GIS" className="h-5 w-5" />
               2GIS арқылы ашу
             </a>
 
