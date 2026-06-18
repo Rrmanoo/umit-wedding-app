@@ -104,8 +104,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "" },
       { property: "og:description", content: "" },
       { name: "twitter:description", content: "" },
-      { property: "og:image", content: "https://umit-wedding-app.vercel.app/bride-umit.png" },
-      { name: "twitter:image", content: "https://umit-wedding-app.vercel.app/bride-umit.png" },
+      { property: "og:image", content: "https://umit-wedding-app.vercel.app/bride-umit-preview.png" },
+      { name: "twitter:image", content: "https://umit-wedding-app.vercel.app/bride-umit-preview.png" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
