@@ -81,29 +81,29 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
       },
-      { title: "Айсулу — Қыз ұзату тойына шақыру" },
+      { title: "Үміт — Қыз ұзату тойына шақыру" },
       {
         name: "description",
         content:
-          "Айсулудың қыз ұзату тойына шақырамыз — 24 маусым 2026, «Portofino» мейрамханасы, Астана",
+          "Үміттің қыз ұзату тойына шақырамыз — 31 шілде 2026, «Бәйтерек» мейрамханасы, Орал",
       },
       { property: "og:type", content: "website" },
-      { property: "og:title", content: "Айсулу — Қыз ұзату тойына шақыру" },
+      { property: "og:title", content: "Үміт — Қыз ұзату тойына шақыру" },
       {
         property: "og:description",
         content:
-          "24 маусым 2026 • «Portofino» • Астана — Сізді қыз ұзату тойымызға шақырамыз!",
+          "31 шілде 2026 • «Бәйтерек» • Орал — Сізді қыз ұзату тойымызға шақырамыз!",
       },
       { property: "og:locale", content: "kk_KZ" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Айсулу — Қыз ұзату тойына шақыру" },
+      { name: "twitter:title", content: "Үміт — Қыз ұзату тойына шақыру" },
       {
         name: "twitter:description",
-        content: "24 маусым 2026 • «Portofino» • Астана",
+        content: "31 шілде 2026 • «Бәйтерек» • Орал",
       },
-      { name: "description", content: "Iota's Web Companion is a web application for copying and interacting with web content." },
-      { property: "og:description", content: "Iota's Web Companion is a web application for copying and interacting with web content." },
-      { name: "twitter:description", content: "Iota's Web Companion is a web application for copying and interacting with web content." },
+      { name: "description", content: "" },
+      { property: "og:description", content: "" },
+      { name: "twitter:description", content: "" },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2f20e7bd-533e-4e3f-8714-c0db30c21b72/id-preview-2ab5cb44--f7fd63a4-7a5e-4a1c-a29f-94361117c58e.lovable.app-1781720102290.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2f20e7bd-533e-4e3f-8714-c0db30c21b72/id-preview-2ab5cb44--f7fd63a4-7a5e-4a1c-a29f-94361117c58e.lovable.app-1781720102290.png" },
     ],
